@@ -1,0 +1,35 @@
+body {
+    background-color: #ebeaea;
+    /* align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0px 100px;
+}
+
+.neumorphism {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 90px;
+    background: #ebeaea;
+    box-shadow: -7px 7px 12px #d1d0d0, 7px -7px 12px #ffffff;
+}
+
+.neumorphism:active {
+    box-shadow: inset -7px 7px 12px #d1d0d0, inset 7px -7px 12px #ffffff;
+}
