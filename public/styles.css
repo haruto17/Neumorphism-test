@@ -11,7 +11,7 @@ h2 {
     text-align: center;
 }
 
-.flex {
+.flex-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,16 @@ h2 {
     gap: 0px 100px;
 }
 
-.neumorphism {
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0px 100px;
+}
+
+.neumorphism-rect {
     width: 300px;
     height: 300px;
     margin-top: 100px;
@@ -30,13 +39,27 @@ h2 {
     box-shadow: -7px 7px 12px #d1d0d0, 7px -7px 12px #ffffff;
 }
 
-.neumorphism:active {
+.neumorphism-rect:active {
+    box-shadow: inset -7px 7px 12px #d1d0d0, inset 7px -7px 12px #ffffff;
+}
+
+.neumorphism-rect-2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    background: #ebeaea;
+    box-shadow: -7px 7px 12px #d1d0d0, 7px -7px 12px #ffffff;
+}
+
+.neumorphism-rect-2:active {
     box-shadow: inset -7px 7px 12px #d1d0d0, inset 7px -7px 12px #ffffff;
 }
 
 .neumorphism-circle {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin-top: 100px;
     margin-bottom: 100px;
     border-radius: 50%;
@@ -45,5 +68,19 @@ h2 {
 }
 
 .neumorphism-circle:active {
+    box-shadow: inset -7px 7px 12px #d1d0d0, inset 7px -7px 12px #ffffff;
+}
+
+.neumorphism-circle-2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    background: #ebeaea;
+    box-shadow: -7px 7px 12px #d1d0d0,7px -7px 12px #ffffff;
+}
+
+.neumorphism-circle-2:active {
     box-shadow: inset -7px 7px 12px #d1d0d0, inset 7px -7px 12px #ffffff;
 }
