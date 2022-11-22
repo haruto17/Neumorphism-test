@@ -33,3 +33,17 @@ h2 {
 .neumorphism:active {
     box-shadow: inset -7px 7px 12px #d1d0d0, inset 7px -7px 12px #ffffff;
 }
+
+.neumorphism-circle {
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    background: #ebeaea;
+    box-shadow: -7px 7px 12px #d1d0d0,7px -7px 12px #ffffff;
+}
+
+.neumorphism-circle:active {
+    box-shadow: inset -7px 7px 12px #d1d0d0, inset 7px -7px 12px #ffffff;
+}
